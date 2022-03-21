@@ -1,0 +1,50 @@
+VirtualBox COM Server 5.1.14 r112924 win.amd64 (Mar 14 2019 11:12:10) release log
+00:00:00.006996 main     Log opened 2019-10-29T14:33:48.404915000Z
+00:00:00.006996 main     Build Type: release
+00:00:00.006996 main     OS Product: Windows 10
+00:00:00.006996 main     OS Release: 10.0.17763
+00:00:00.006996 main     OS Service Pack: 
+00:00:00.249999 main     DMI Product Name: E3800N
+00:00:00.284001 main     DMI Product Version: To be filled by O.E.M.
+00:00:00.284001 main     Host RAM: 3531MB (3.4GB) total, 608MB available
+00:00:00.284001 main     Executable: C:\Program Files (x86)\Bignox\BigNoxVM\RT\NoxVMSVC.exe
+00:00:00.284001 main     Process ID: 4044
+00:00:00.284001 main     Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:00.284999 main     hInstance = 00007ff671b60000
+00:00:00.291003          VirtualBox: object creation starts
+00:00:00.293002          Home directory: 'C:\Users\mami\.BigNox'
+00:00:00.294000          Installed Drivers:
+00:00:00.301997 main     NoxVMSVCWinMain: msg 0000000000000081
+00:00:00.304996 main     NoxVMSVCWinMain: msg 00007aef00000083
+00:00:00.304996 main     NoxVMSVCWinMain: msg 0000000000000001
+00:00:00.304996 main     NoxVMSVCWinMain: msg 0000000000000005
+00:00:00.306002 main     NoxVMSVCWinMain: msg 0000000000000003
+00:00:00.306002 main     NoxVMSVCWinMain: msg 0000000000000046
+00:00:00.307001 main     NoxVMSVCWinMain: msg 0000000000000047
+00:00:00.307001 main     NoxVMSVCWinMain: msg 00007aef00000003
+00:00:00.307001 main     SVCMain: Main window succesfully created
+00:00:00.311999          USBLibInit: USB Service not found
+00:00:00.448994          netIfGetBoundAdapters: could not find either 'oracle_VBoxNetLwf' or 'sun_VBoxNetFlt' components (0x1)
+00:00:00.493001          HostDnsMonitor: old information
+00:00:00.493001            no server entries
+00:00:00.493001            no domain set
+00:00:00.493001            no search string entries
+00:00:00.493001          HostDnsMonitor: new information
+00:00:00.493001            server 1: 181.47.254.164
+00:00:00.493001            server 2: 200.115.192.30
+00:00:00.493001            server 3: 190.55.60.130
+00:00:00.493001            no domain set
+00:00:00.493001            no search string entries
+00:00:00.494000          HostDnsMonitorProxy::notify
+00:00:00.495999          VD: VDInit finished
+00:00:00.499000          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={88888888-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.501996          VirtualBox: object created
+00:00:05.517995          CExeModule::MonitorShutdown() line = 101
+00:00:05.517995 main     SVCMain: DestroyMainWindow 
+00:00:05.517995 main     NoxVMSVCWinMain: msg 0000000000000090
+00:00:05.517995 main     NoxVMSVCWinMain: WM_DESTROY 
+00:00:05.519000 main     NoxVMSVCWinMain: msg 0000000000000082
+00:00:05.519999 main     VirtualBox: object deletion starts
+00:00:05.522997 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={88888888-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:05.524000 main     VirtualBox: object deleted
+00:00:05.525999 main     SVCMAIN: Returning, COM server process ends.
